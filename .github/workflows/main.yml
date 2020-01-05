@@ -15,4 +15,4 @@ jobs:
       uses: ansible/ansible-lint-action@master
       with:
         targets: "playbooks"
-        args: "-q"
+        args: "-p"
