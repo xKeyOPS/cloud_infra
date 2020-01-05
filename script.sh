@@ -7,7 +7,7 @@ TEST_DIR=$(dirname $0)
 ANSIBLE_LINT_VERSION=$(grep ansible-lint requirements.txt | cut -f 3 -d " ")
 
 echo "Start test container"
-docker run -itd --init --rm --name ansible-lint ansible-lint sleep 600
+docker run -itd --init --rm --name ansible-lint xkeyops/ansible-lint sleep 600
 
 echo "Check python version"
 RESULT=$(docker exec ansible-lint python -c 'import sys; print(sys.version_info.major)')
@@ -33,8 +33,8 @@ fi
 
 echo "Check simple playbook lint"
 docker cp playbooks/ ansible-lint:/work
-docker exec ansible-lint sh -c 'set -o pipefail; find ./playbooks/ -name "*.yml" | xargs -r ansible-lint -vvv --force-color'
+docker exec xkeyops/ansible-lint sh -c 'set -o pipefail; find ./playbooks/ -name "*.yml" | xargs -r ansible-lint -vvv --force-color'
 
 echo "!!! The test was successful !!!"
 
-docker stop ansible-lint
+docker stop xkeyops/ansible-lint
