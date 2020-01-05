@@ -12,7 +12,7 @@ jobs:
       - name: Git clone our repository
         uses: actions/checkout@v1
 
-      - name: Load Docker image layer cache
+      - name: Build Docker image
         run: docker build -t xkeyops/ansible-lint .
 
 
@@ -22,17 +22,11 @@ jobs:
             docker load -i /caches/ansible-lint.tar | true
 
       - name: Build ansible-lint Docker image
-        run: |
-            docker build --cache-from=ansible-lint -t xkeyops/ansible-lint ./
-      - name: Load Docker image layer cache
-        run: |
-              set +o pipefail
-              docker load -i /caches/ansible-lint.tar | true
-      - name: Build ansible-lint Docker image
         run: docker build --cache-from=ansible-lint -t xkeyops/ansible-lint ./
 
       - name: Run ansible-lint (test)
         run: sh ./script.sh
+        
       - name: Save Docker image layer cache
         run: |
             mkdir -p /caches
