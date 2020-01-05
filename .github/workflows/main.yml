@@ -11,6 +11,11 @@ jobs:
     # Important: This sets up your GITHUB_WORKSPACE environment variable
       - name: Git clone our repository
         uses: actions/checkout@v1
+
+      - name: Load Docker image layer cache
+        run: docker build -t xkeyops/ansible-lint .
+
+
       - name: Load Docker image layer cache
         run: |
             set +o pipefail

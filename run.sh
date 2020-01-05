@@ -2,7 +2,7 @@
 
 set -e
 NAME="ansible-lint"
-IMAGE_NAME=yokogawa/${NAME}
+IMAGE_NAME=xkeyops/${NAME}
 docker ps --quiet --all --filter name=${NAME} | xargs -r docker rm >/dev/null
 
 set -x
