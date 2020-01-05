@@ -13,4 +13,4 @@ LABEL "com.github.actions.color"="gray-dark"
 RUN pip install ansible-lint
 
 ADD entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["entrypoint.sh"]
