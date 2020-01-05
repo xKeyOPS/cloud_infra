@@ -1,0 +1,35 @@
+- hosts: localhost
+  connection: local
+
+
+  tasks:
+
+    - name: Check that the secret.json exists
+      stat:
+        path: secret.json
+      register: stat_result
+
+    - name: Configure secret keys for Update
+      block:
+        - name: Read postgres json file
+          set_fact:
+            pgdb: "{{ lookup('file', './postgres.json') | from_json}}"
+
+        - name: Read fileserver json file
+          set_fact:
+            s3: "{{ (lookup('file', './file-storage.json') | from_json) }}"
+
+        - name: append more key/values
+          set_fact:
+            secret: "{{ s3.minioConfiguration | combine(pgdb) }}"
+
+        - name: write var to file
+          copy:
+            content: "{{ secret | to_nice_json }}"
+            dest: secret.json
+      when: stat_result.stat.exists == False
+
+
+    - name: copy to tmp directory
+      shell: cp secret.json /tmp/secret.json
+      when: stat_result.stat.exists == True
