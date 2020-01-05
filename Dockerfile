@@ -1,28 +1,26 @@
-FROM ubuntu:16.04
-RUN echo "===> Adding Ansible's PPA..."  && \
-    echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu xenial main" | tee /etc/apt/sources.list.d/ansible.list           && \
-    echo "deb-src http://ppa.launchpad.net/ansible/ansible/ubuntu xenial main" | tee -a /etc/apt/sources.list.d/ansible.list    && \
-    apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 7BB9C367    && \
-    DEBIAN_FRONTEND=noninteractive  apt-get update  && \
-    \
-    \
-    echo "===> Installing Ansible..."  && \
-    apt-get install -y ansible  && \
-    \
-    \
-    echo "===> Installing handy tools (not absolutely required)..."  && \
-    apt-get install -y python-pip              && \
-    pip install --upgrade pycrypto pywinrm     && \
-    apt-get install -y sshpass openssh-client  && \
-    \
-    \
-    echo "===> Removing Ansible PPA..."  && \
-    rm -rf /var/lib/apt/lists/*  /etc/apt/sources.list.d/ansible.list  && \
-    \
-    \
-    echo "===> Adding hosts for convenience..."  && \
-    echo 'localhost' > /etc/ansible/hosts
+FROM python:3-alpine
 
+COPY requirements.txt /
+RUN apk add --no-cache git \
+ && apk add --no-cache --virtual .build-deps \
+    make \
+    gcc \
+    libc-dev \
+    openssl-dev \
+    python-dev \
+    libffi-dev \
+ && pip install -r requirements.txt \
+ && runDeps="$( \
+      scanelf --needed --nobanner --recursive /usr/local \
+      | awk '{ gsub(/,/, "\nso:", $2); print "so:" $2 }' \
+      | sort -u \
+      | xargs -r apk info --installed \
+      | sort -u \
+    )" \
+ && apk add --no-cache --virtual .ansible-lint-rundeps $runDeps \
+ && apk del .build-deps \
+ && rm -rf ~/.cache/
 
-# default command: display Ansible version
-CMD [ "ansible-playbook", "--version" ]
+ENV ANSIBLE_LOCAL_TEMP /tmp
+WORKDIR /work
+CMD ["ansible-lint", "--help"]
