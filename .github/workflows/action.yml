@@ -32,7 +32,7 @@ inputs:
       or valid Ansible directories according to the Ansible role
       directory structure.
     required: true
-runs:
+run:
   using: docker
   image: Dockerfile
   args:
