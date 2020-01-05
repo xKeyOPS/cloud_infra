@@ -32,7 +32,7 @@ else
 fi
 
 echo "Check simple playbook lint"
-docker cp success/ ansible-lint:/work
+docker cp playbooks/ ansible-lint:/work
 docker exec ansible-lint sh -c 'set -o pipefail; find ./playbooks/ -name "*.yml" | xargs -r ansible-lint -vvv --force-color'
 
 echo "!!! The test was successful !!!"
