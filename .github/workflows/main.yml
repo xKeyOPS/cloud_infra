@@ -14,14 +14,11 @@ jobs:
       - name: Load Docker image layer cache
         run: |
             set +o pipefail
-
             docker load -i /caches/ansible-lint.tar | true
 
-
-
-      - uses: actions/checkout@v1
-        name: Lint Ansible Playbook
-
+      - name: Build ansible-lint Docker image
+        run: |
+            docker build --cache-from=ansible-lint -t xkeyops/ansible-lint ./
       - name: Load Docker image layer cache
         run: |
               set +o pipefail
