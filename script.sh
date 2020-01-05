@@ -3,7 +3,7 @@
 set -e
 set -u
 
-TEST_DIR=$($(dirname $0); pwd)
+TEST_DIR=$(dirname $0)
 ANSIBLE_LINT_VERSION=$(grep ansible-lint requirements.txt | cut -f 3 -d " ")
 
 echo "Start test container"
