@@ -19,6 +19,8 @@ jobs:
         run: |
             docker save -o ansible-lint.tar ansible-lint
 
-      - name: Run ansible-lint (test)
-        run: sh ./script.sh
+      - name: Build ansible-lint Docker image
+        run: |
+            docker build --cache-from=ansible-lint -t xkeyops/ansible-lint .
+
 
