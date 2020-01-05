@@ -10,7 +10,7 @@ jobs:
     steps:
     # Important: This sets up your GITHUB_WORKSPACE environment variable
     - uses: actions/checkout@v1
-    - name: Lint Ansible Playbook
+      name: Lint Ansible Playbook
 
     - name: Load Docker image layer cache
       run: |
@@ -21,4 +21,3 @@ jobs:
 
     - name: Run ansible-lint (test)
       run: sh ./script.sh
-      
