@@ -7,10 +7,10 @@ TEST_DIR=$(dirname $0)
 ANSIBLE_LINT_VERSION=$(grep ansible-lint requirements.txt | cut -f 3 -d " ")
 
 echo "Start test container"
-docker run -itd --init --rm --name ansible-lint xkeyops/ansible-lint sleep 600
+docker run -itd --init --rm --name xkeyops/ansible-lint xkeyops/ansible-lint sleep 600
 
 echo "Check python version"
-RESULT=$(docker exec ansible-lint python -c 'import sys; print(sys.version_info.major)')
+RESULT=$(docker exec xkeyops/ansible-lint python -c 'import sys; print(sys.version_info.major)')
 echo "Want:   3"
 echo "Reuslt: ${RESULT}"
 if [ "${RESULT}" -eq 3 ]; then
