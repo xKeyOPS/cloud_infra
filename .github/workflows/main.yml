@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Lint Ansible Playbook
       # replace "master" with any valid ref
-      uses: cloud_infra/ansible-lint-action@master
+      uses: xKeyOPS/cloud_infra@master
       with:
         targets: "playbooks"
         args: "-p"
