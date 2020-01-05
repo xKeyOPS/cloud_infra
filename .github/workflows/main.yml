@@ -17,7 +17,6 @@ jobs:
 
       - name: Save Docker image layer cache
         run: |
-            mkdir -p /caches
             docker save -o /caches/ansible-lint.tar xkeyops/ansible-lint
 
       - name: Load Docker image layer cache
