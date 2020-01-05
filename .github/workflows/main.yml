@@ -17,7 +17,7 @@ jobs:
 
       - name: Save Docker image layer cache
         run: |
-            docker save -o xkeyops/ansible-lint.tar ansible-lint
+            docker save -o caches/ansible-lint.tar ansible-lint
 
       - name: Run ansible-lint (test)
         run: sh ./script.sh
