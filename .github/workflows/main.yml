@@ -13,11 +13,11 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Build Docker image
-        run: docker build -t ansible-lint .
+        run: docker build -t xkeyops/ansible-lint .
 
       - name: Save Docker image layer cache
         run: |
-            docker save -o ansible-lint.tar ansible-lint
+            docker save -o ansible-lint.tar xkeyops/ansible-lint
 
       - name: Build ansible-lint Docker image
         run: |
