@@ -11,8 +11,9 @@ jobs:
     # Important: This sets up your GITHUB_WORKSPACE environment variable
     - uses: actions/checkout@v1
     - name: Lint Ansible Playbook
-      # replace "master" with any valid ref
-      uses: xKeyOPS/cloud_infra@master
-      with:
-        targets: "playbooks"
-        args: "-p"
+
+    - name: ansible-lint
+      uses: ansible/ansible-lint-action@v4.1.0.post0
+
+            
+           
