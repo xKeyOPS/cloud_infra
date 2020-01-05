@@ -9,15 +9,25 @@ jobs:
 
     steps:
     # Important: This sets up your GITHUB_WORKSPACE environment variable
-    - uses: actions/checkout@v1
-      name: Lint Ansible Playbook
-
-    - name: Load Docker image layer cache
-      run: |
+      - name: Git clone our repository
+        uses: actions/checkout@v1
+      - name: Load Docker image layer cache
+        run: |
             set +o pipefail
+            
             docker load -i /caches/ansible-lint.tar | true
-    - name: Build ansible-lint Docker image
-      run: docker build --cache-from=ansible-lint -t xkeyops/ansible-lint ./
 
-    - name: Run ansible-lint (test)
-      run: sh ./script.sh
+
+
+      - uses: actions/checkout@v1
+        name: Lint Ansible Playbook
+
+      - name: Load Docker image layer cache
+        run: |
+              set +o pipefail
+              docker load -i /caches/ansible-lint.tar | true
+      - name: Build ansible-lint Docker image
+        run: docker build --cache-from=ansible-lint -t xkeyops/ansible-lint ./
+
+      - name: Run ansible-lint (test)
+        run: sh ./script.sh
