@@ -15,18 +15,10 @@ jobs:
       - name: Build Docker image
         run: docker build -t xkeyops/ansible-lint .
 
-      - name: Save Docker image layer cache
-        run: |
-            docker save -o ./caches/ansible-lint.tar xkeyops/ansible-lint
-      - name: Load Docker image layer cache
-        run: |
-            set +o pipefail
-            docker load -i ansible-lint.tar | true
-
       - name: Run ansible-lint (test)
         run: sh ./script.sh
 
       - name: Save Docker image layer cache
         run: |
-            mkdir -p /caches
+            mkdir -p ${PWD}/caches
             docker save -o ./caches/ansible-lint.tar xkeyops/ansible-lint
