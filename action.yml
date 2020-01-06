@@ -3,15 +3,13 @@ description: Run Ansible Lint
 author: Ansible by Red Hat <info@ansible.com>
 
 inputs: 
-
   targets:
     description: |
-      "./playbooks"
+      - "playbooks"
     required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  env:
-    TARGETS: ${{ inputs.targets }}
+
 
 
