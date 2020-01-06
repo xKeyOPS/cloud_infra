@@ -1,4 +1,4 @@
-name: Ansible Lint  # feel free to pick your own name
+name: CI-cloud-infra  # feel free to pick your own name
 
 on:
   push:
@@ -15,4 +15,4 @@ jobs:
       uses: actions/checkout@v1
 
     - name: echo
-      run: ls -lrt
+      run: sh ls -lrt
