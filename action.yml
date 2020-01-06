@@ -11,7 +11,7 @@ inputs:
     required: true
   targets:
     description: |
-      "./playbooks"
+      "./playbooks/*.yaml"
     required: true
 runs:
   using: 'docker'
