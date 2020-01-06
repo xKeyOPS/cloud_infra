@@ -31,5 +31,10 @@ RUN echo "===> Installing sudo to emulate normal OS behavior..."  && \
     echo 'localhost' > /etc/ansible/hosts
 
 
-# default command: display Ansible version
-CMD [ "ansible-playbook", "--version" ]
+
+RUN ansible-playbook-wrapper
+
+# # default command: display Ansible version
+# CMD [ "ansible-playbook", "--version" ]
+
+
