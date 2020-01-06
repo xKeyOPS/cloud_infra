@@ -1,26 +1,35 @@
-FROM python:3-alpine
+# pull base image
+FROM alpine:3.8
 
-COPY requirements.txt /
-RUN apk add --no-cache git \
- && apk add --no-cache --virtual .build-deps \
-    make \
-    gcc \
-    libc-dev \
-    openssl-dev \
-    python-dev \
-    libffi-dev \
- && pip install -r requirements.txt \
- && runDeps="$( \
-      scanelf --needed --nobanner --recursive /usr/local \
-      | awk '{ gsub(/,/, "\nso:", $2); print "so:" $2 }' \
-      | sort -u \
-      | xargs -r apk info --installed \
-      | sort -u \
-    )" \
- && apk add --no-cache --virtual .ansible-lint-rundeps $runDeps \
- && apk del .build-deps \
- && rm -rf ~/.cache/
+RUN echo "===> Installing sudo to emulate normal OS behavior..."  && \
+    apk --update add sudo                                         && \
+    \
+    \
+    echo "===> Adding Python runtime..."  && \
+    apk --update add python py-pip openssl ca-certificates    && \
+    apk --update add --virtual build-dependencies \
+                python-dev libffi-dev openssl-dev build-base  && \
+    pip install --upgrade pip cffi                            && \
+    \
+    \
+    echo "===> Installing Ansible..."  && \
+    pip install ansible                && \
+    \
+    \
+    echo "===> Installing handy tools (not absolutely required)..."  && \
+    pip install --upgrade pycrypto pywinrm         && \
+    apk --update add sshpass openssh-client rsync  && \
+    \
+    \
+    echo "===> Removing package list..."  && \
+    apk del build-dependencies            && \
+    rm -rf /var/cache/apk/*               && \
+    \
+    \
+    echo "===> Adding hosts for convenience..."  && \
+    mkdir -p /etc/ansible                        && \
+    echo 'localhost' > /etc/ansible/hosts
 
-ENV ANSIBLE_LOCAL_TEMP /tmp
-WORKDIR /work
-CMD ["ansible-lint", "--help"]
+
+# default command: display Ansible version
+CMD [ "ansible-playbook", "--version" ]
