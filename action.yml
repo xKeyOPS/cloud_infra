@@ -6,7 +6,7 @@ inputs:
 
   targets:
     description: |
-      "*.yml"
+      "./playbooks"
     required: true
 runs:
   using: 'docker'
