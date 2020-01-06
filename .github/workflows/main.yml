@@ -16,3 +16,9 @@ jobs:
 
     - name: echo
       run: ls -lah
+
+    - name: docker build
+      run: docker build -t local.cloud.registry:5000/develop/ed:my-docker-dind
+
+    - name: docker ps
+      run: docker images 
