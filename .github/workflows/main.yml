@@ -8,9 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # Important: This sets up your GITHUB_WORKSPACE environment variable
+    - name: Git clone
     - uses: actions/checkout@v1
-    - name: Lint Ansible Playbook
-      # replace "master" with any valid ref
+
     - name: echo
-      run: echo "hello world"
+    - run: echo "hello world"
