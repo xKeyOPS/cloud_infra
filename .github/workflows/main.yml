@@ -14,4 +14,4 @@ jobs:
       # replace "master" with any valid ref
       uses: ansible/ansible-lint-action@master
       with:
-        targets: "playbooks"
+        targets: "./playbooks/*.yaml"
