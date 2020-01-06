@@ -13,11 +13,11 @@
       block:
         - name: Read postgres json file
           set_fact:
-            pgdb: "{{ lookup('file', 'postgres.json') | from_json}}"
+            pgdb: "{{ lookup('file', '/playbooks/postgres.json) | from_json}}"
 
         - name: Read fileserver json file
           set_fact:
-            s3: "{{ (lookup('file', 'file-storage.json') | from_json) }}"
+            s3: "{{ (lookup('file', '/playbooks/file-storage.json') | from_json) }}"
 
         - name: append more key/values
           set_fact:
