@@ -1,6 +1,9 @@
 name: Ansible Lint  # feel free to pick your own name
 
-on: push
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
