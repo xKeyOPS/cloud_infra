@@ -33,9 +33,11 @@ inputs:
       directory structure.
     required: true
 runs:
-  using: docker
-  image: Dockerfile
+  using: 'docker'
+  image: 'Dockerfile'
   args:
   - ${{ inputs.args }}
   env:
     TARGETS: ${{ inputs.targets }}
+
+
