@@ -1,26 +1,16 @@
-name: Ansible Lint  # feel free to pick your own name
+name: ansible-lint
 
-on: push
-
+on:
+  push:
+    branches:
+      - master
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
+    name: ansible-lint
     steps:
-    # Important: This sets up your GITHUB_WORKSPACE environment variable
-      - name: Git clone our repository
-        uses: actions/checkout@v1
-
-      - name: Build Docker image
-        run: docker build -t xkeyops/ansible-lint .
-
-      - name: Save Docker image layer cache
-        run: |
-            docker save -o ansible-lint.tar xkeyops/ansible-lint
-
-      - name: Build ansible-lint Docker image
-        run: |
-            docker build --cache-from=ansible-lint -t xkeyops/ansible-lint .
-
-
+      - uses: actions/checkout@master
+      - uses: actions/setup-python@v1
+      - run: pip install ansible-lint
+      - run: ansible-lint --version
+      - run: ansible-lint .
