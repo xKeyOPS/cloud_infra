@@ -20,6 +20,11 @@ jobs:
     - name: docker build registry
       run: |
         docker login docker.pkg.github.com --username xKeyOPS
+        docker build -t cloud/gradle  .
+        docker tag cloud/gradle:latest docker.pkg.github.com/xKeyOPS/cloud_infra/cloud/gradle:0.0.1
+        docker push docker.pkg.github.com/xKeyOPS/cloud_infra/cloud/gradle:latest
+        docker push docker.pkg.github.com/xKeyOPS/cloud_infra/cloud/gradle:0.0.1
+
 
     - name: docker ps
       run: docker images
