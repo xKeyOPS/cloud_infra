@@ -7,7 +7,7 @@ RUN echo "===> Adding Ansible's PPA..."  && \
    DEBIAN_FRONTEND=noninteractive  apt-get update  && \
    \
    \
-   echo "===> Installing Ansible..."  && \
+   echo "===> Installing Ansible.\.."  && \
    apt-get install -y ansible  && \
    \
    \

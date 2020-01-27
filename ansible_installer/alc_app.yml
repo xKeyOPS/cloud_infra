@@ -1,0 +1,119 @@
+---
+- name: Prepare private-cloud on localhost
+  hosts: 127.0.0.1
+  connection: local
+  become: yes 
+  become_user: root
+  become_method: sudo
+
+
+  vars:
+
+    alc_user: alcadm
+    docker_registry_host: local.cloud.registry
+    user_password: '$6$rounds=656000$9pJ7WZY0IBg19br8$02uc.2hj2heCmXsuQ58UF19WIuWFyFIxPFMkUGfadSbKtqoFVfEPvZUP59tf.hWy/Dusa7YDdkyn6F2oPCSyW/'
+
+
+  tasks:
+
+  - name: Check LINUX distribution
+    debug: var=ansible_os_family
+ 
+
+
+  - name: create alc user and generate ssh keys
+    user:
+      name: "{{ alc_user }}"
+      append: yes
+      password: "{{ user_password }}"
+      shell: /bin/bash
+      generate_ssh_key: yes
+      groups: 
+       - docker
+       - root
+      state: present
+      create_home: True
+
+
+  - name: Allow alcadm user passwordless sudo
+    lineinfile:
+      dest: /etc/sudoers
+      state: present
+      regexp: '^%sudo ALL='
+      line: 'alcadm ALL=(ALL) NOPASSWD:ALL'
+      validate: visudo -cf %s
+
+  - name: Create alc directory 
+    file:
+      path: "/home/{{ alc_user }}/alc"
+      state: directory
+      owner: "{{ alc_user }}"
+      mode: '0755'
+
+  - name: Create certs directory
+    file:
+      path: "/home/{{ alc_user }}/certs"
+      owner: "{{ alc_user }}"
+      state: directory
+      mode: '0755'
+
+  - name: Create cache directory
+    file:
+      path: "/home/{{ alc_user }}/alc/cache"
+      owner: "{{ alc_user }}"
+      state: directory
+      mode: '0755'
+
+  - name: Create controller directory
+    file:
+      path: "/home/{{ alc_user }}/alc/controller"
+      owner: "{{ alc_user }}"
+      state: directory
+      mode: '0755'
+
+
+  - name: Add dns docker registry to /etc/hosts
+    lineinfile:
+      path: /etc/hosts
+      regexp: '^127\.0\.0\.1'
+      line: "127.0.0.1 {{ docker_registry_host }}"
+      owner: root
+      group: root
+      mode: '0644'
+
+  - name: Generate ssl certifacate for docker registry
+    command: openssl req -newkey rsa:4096 -nodes -sha256 -keyout /home/alcadm/certs/domain.key -x509 -days 365 -out /home/alcadm/certs/domain.crt -subj "/C=US/ST=Illinois/L=Chicago/O=North America, LLC/OU=Org/CN={{ docker_registry_host }}"
+
+
+  - name: Create docker-registry directory
+    file:
+      path: "/etc/docker/certs.d/{{ docker_registry_host }}:5000"
+      state: directory
+      mode: '0755'
+
+
+  - name: Copy domain.crt to registry directory
+    command: cp /home/alcadm/certs/domain.crt /etc/docker/certs.d/{{ docker_registry_host }}:5000/ca.crt
+
+
+  - name: Copy sshd config, backing up original if it differs from the copied version
+    copy:
+      src: ./files/sshd_config
+      dest: /etc/ssh/sshd_config
+      owner: root
+      group: root
+      mode: 0644
+      backup: yes
+  
+
+  - name: Restart sshd service
+    systemd:
+      name: sshd
+      state: restarted    
+
+  - name: Set to authorized keys
+    shell: "cat /home/alcadm/.ssh/id_rsa.pub >> /home/alcadm/.ssh/authorized_keys"
+
+
+  - name: Copy registry directory to home alcuser
+    command: cp -r ./files/anylogic-private-cloud/ /home/alcadm/alc

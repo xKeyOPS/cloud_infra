@@ -1,0 +1,42 @@
+---
+- name: Start docker-registry and controller
+  hosts: 127.0.0.1
+  connection: local
+  strategy: free
+  gather_facts: true
+  become: yes 
+  become_user: root
+  become_method: sudo
+
+
+  tasks:
+
+  - name: Create Docker Registry
+    docker_container:
+      name: local.cloud.registry
+      image: registry:2
+      state: started
+      restart_policy: always
+      env:
+        REGISTRY_HTTP_TLS_CERTIFICATE: /certs/domain.crt
+        REGISTRY_HTTP_TLS_KEY: /certs/domain.key
+      volumes:
+        - /home/alcadm/alc/anylogic-private-cloud/data:/var/lib/registry
+        - /home/alcadm/certs:/certs
+      published_ports:
+        - 5000:5000
+    register: docker_container_registry
+      
+  - name: Start controller 
+    docker_container: 
+      name: controller
+      image: local.cloud.registry:5000/local-cloud-controller:latest
+      restart_policy: unless-stopped
+      volumes:
+       - /home/alcadm/alc/controller:/var/lib/controller
+      published_ports:
+       - 9000:9000      
+
+  - name: print information for Docker registry
+    debug: 
+      msg: "{{ docker_container_registry.ansible_facts.docker_container }}"
