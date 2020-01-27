@@ -1,4 +1,4 @@
-# cloud_infra
+# Cloud Infrastructure k8s
 
 ## AWS-CLI install 
 aws-cli - pip3 install awscli --upgrade --user
