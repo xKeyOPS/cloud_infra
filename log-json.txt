@@ -1,0 +1,1238 @@
+[{
+  "commit-hash": "72a3d3e53d88a2e3952537536d7f226024037fae",
+  "abbreviated-commit-hash": "72a3d3e",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Tue, 28 Jan 2020 00:24:14 +0300",
+  "subject": "fix merge",
+  "sanitized-subject-line": "fix-merge",
+  "body": "",
+  "raw-body": "fix merge
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "1391a93373a90b69ca70ca491631d789764623b7",
+  "abbreviated-commit-hash": "1391a93",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Tue, 28 Jan 2020 00:18:18 +0300",
+  "subject": "fix merge",
+  "sanitized-subject-line": "fix-merge",
+  "body": "",
+  "raw-body": "fix merge
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "f1c4e9e0fe1bf920eea4e8283850b07c28dc2e4a",
+  "abbreviated-commit-hash": "f1c4e9e",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Tue, 28 Jan 2020 00:17:34 +0300",
+  "subject": "fix merge",
+  "sanitized-subject-line": "fix-merge",
+  "body": "",
+  "raw-body": "fix merge
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "ff8f46a1c36ae49fadd299d7820c0d8f6d92114c",
+  "abbreviated-commit-hash": "ff8f46a",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Tue, 28 Jan 2020 00:16:23 +0300",
+  "subject": "fix merge",
+  "sanitized-subject-line": "fix-merge",
+  "body": "",
+  "raw-body": "fix merge
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "2fb22fb5f5bab56522e2bad9f5d067f6b248e508",
+  "abbreviated-commit-hash": "2fb22fb",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Tue, 28 Jan 2020 00:14:13 +0300",
+  "subject": "fix readme",
+  "sanitized-subject-line": "fix-readme",
+  "body": "",
+  "raw-body": "fix readme
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "521b8da220ad5508af426949638b95429b69e9da",
+  "abbreviated-commit-hash": "521b8da",
+  "author-name": "i.batyrov",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Tue, 28 Jan 2020 00:08:45 +0300",
+  "subject": "Update README.md",
+  "sanitized-subject-line": "Update-README.md",
+  "body": "",
+  "raw-body": "Update README.md",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "30d7f29abb7e4e9e70b4c31aa780b14238e3ab9a",
+  "abbreviated-commit-hash": "30d7f29",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Tue, 28 Jan 2020 00:03:41 +0300",
+  "subject": "add readme",
+  "sanitized-subject-line": "add-readme",
+  "body": "",
+  "raw-body": "add readme
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "8f5adb290d29f9b6b96d470dc42e399c0513d769",
+  "abbreviated-commit-hash": "8f5adb2",
+  "author-name": "i.batyrov",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Tue, 28 Jan 2020 00:03:23 +0300",
+  "subject": "Create README.md",
+  "sanitized-subject-line": "Create-README.md",
+  "body": "",
+  "raw-body": "Create README.md",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "fa5eb60a04b87508bfb9062b0b7d20ea4802d621",
+  "abbreviated-commit-hash": "fa5eb60",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 27 Jan 2020 23:53:09 +0300",
+  "subject": "fix bugs",
+  "sanitized-subject-line": "fix-bugs",
+  "body": "",
+  "raw-body": "fix bugs
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "66b299e14ce88b0a16e16c9eb1ba60a26fce2c0d",
+  "abbreviated-commit-hash": "66b299e",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Tue, 14 Jan 2020 00:35:02 +0300",
+  "subject": "add baseimages dockerfile",
+  "sanitized-subject-line": "add-baseimages-dockerfile",
+  "body": "",
+  "raw-body": "add baseimages dockerfile
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "3ebf5a3ded1e11a00a59ecb816c5e42c27c69988",
+  "abbreviated-commit-hash": "3ebf5a3",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 10:19:16 +0300",
+  "subject": "add docker registry",
+  "sanitized-subject-line": "add-docker-registry",
+  "body": "",
+  "raw-body": "add docker registry
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "276da8f3c68fe2117a059167cf55a82a89676697",
+  "abbreviated-commit-hash": "276da8f",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 10:16:37 +0300",
+  "subject": "add docker registry",
+  "sanitized-subject-line": "add-docker-registry",
+  "body": "",
+  "raw-body": "add docker registry
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "e59a7f458b101ec98016a87379ef57853935c7b5",
+  "abbreviated-commit-hash": "e59a7f4",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 09:49:15 +0300",
+  "subject": "fix docker build",
+  "sanitized-subject-line": "fix-docker-build",
+  "body": "",
+  "raw-body": "fix docker build
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "c730fda202c5bb126379ff9673bda97b4979e751",
+  "abbreviated-commit-hash": "c730fda",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 09:47:43 +0300",
+  "subject": "fix docker build",
+  "sanitized-subject-line": "fix-docker-build",
+  "body": "",
+  "raw-body": "fix docker build
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "9b2e7246e8c71e7fa5cc56bad384aea498040d57",
+  "abbreviated-commit-hash": "9b2e724",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 09:45:57 +0300",
+  "subject": "fix docker build",
+  "sanitized-subject-line": "fix-docker-build",
+  "body": "",
+  "raw-body": "fix docker build
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "f0af20160292d02f65150f7c4d1f32ba422d94a5",
+  "abbreviated-commit-hash": "f0af201",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 09:44:16 +0300",
+  "subject": "add base docker images",
+  "sanitized-subject-line": "add-base-docker-images",
+  "body": "",
+  "raw-body": "add base docker images
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "f9dbe6458deeeee3cef28faf1243959c3026697b",
+  "abbreviated-commit-hash": "f9dbe64",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:53:37 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "78c72688f6d3563b35897e0d320f41359f897a62",
+  "abbreviated-commit-hash": "78c7268",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:52:43 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "aee960339e355653b6a925c2d4af3e42c7ae4803",
+  "abbreviated-commit-hash": "aee9603",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:52:01 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "132115ea3899fecf5b702e3ff70faf96471e13f5",
+  "abbreviated-commit-hash": "132115e",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:50:55 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "7004f06220fe6b96a9cdd8b9231fe0184d822100",
+  "abbreviated-commit-hash": "7004f06",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:48:28 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "36497ff9d667211c617af2cc737ff264d814e11c",
+  "abbreviated-commit-hash": "36497ff",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:47:44 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "d0d6859afd689d809e25219d6f5218ea30a4a294",
+  "abbreviated-commit-hash": "d0d6859",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:46:44 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "06d91e2076f45fc9e81c1baddbb30fc633a7e0fb",
+  "abbreviated-commit-hash": "06d91e2",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:30:23 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "4c2909e07dfc613cf680214fb33a0106e3800ba6",
+  "abbreviated-commit-hash": "4c2909e",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:28:27 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "e4a096c7a0ff80262be4929e5006266cbbc02bb7",
+  "abbreviated-commit-hash": "e4a096c",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:25:06 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "0b25a0f8ec27daaaf55fed146a5acee9a3131680",
+  "abbreviated-commit-hash": "0b25a0f",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:21:36 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "26ff57f7b45eb8f7edcd350fb6d4ac9ca0d0b7e3",
+  "abbreviated-commit-hash": "26ff57f",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:18:25 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "a2801bbd0d10791ede9834b65619ce23154253fd",
+  "abbreviated-commit-hash": "a2801bb",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:16:13 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "6239c9476377c761b553abc1fb5aec0d01d0068a",
+  "abbreviated-commit-hash": "6239c94",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:14:16 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "213cff6244f2ab404d444c77f4fff1d13fabdc68",
+  "abbreviated-commit-hash": "213cff6",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:11:54 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "a61b638e735dfdf28400efd6ff3efd38d1cb66d6",
+  "abbreviated-commit-hash": "a61b638",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:09:21 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "4e4b040825df321c0f4b41bdd51e86ba67c04213",
+  "abbreviated-commit-hash": "4e4b040",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:08:41 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "d98baddc5e05c4970ea2678863fd6e2f11750098",
+  "abbreviated-commit-hash": "d98badd",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:06:10 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "b899462c7ad009cf211c459bc4356334e167aff4",
+  "abbreviated-commit-hash": "b899462",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 06:02:36 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "97eaa13eae4fd6cd1cb890da1114e8614f68c235",
+  "abbreviated-commit-hash": "97eaa13",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 05:52:44 +0300",
+  "subject": "fix new",
+  "sanitized-subject-line": "fix-new",
+  "body": "",
+  "raw-body": "fix new
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "b94c2bd909bb6e1c21b165faa1df118271499d54",
+  "abbreviated-commit-hash": "b94c2bd",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 03:46:44 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "ed85772e26f077bd5b817b753f20f2c234e856a1",
+  "abbreviated-commit-hash": "ed85772",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Mon, 6 Jan 2020 03:36:26 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "ef53f1fb73c7c52d1f964bac93546c0b787d889d",
+  "abbreviated-commit-hash": "ef53f1f",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 23:18:43 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "93aa80a096fc2b8263f06ff8f4db98f93760f5b8",
+  "abbreviated-commit-hash": "93aa80a",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 23:05:10 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "8f7d683c7e69192dbe8659e74c81b97b78771155",
+  "abbreviated-commit-hash": "8f7d683",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 23:01:11 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "3f47b21e18e79ea8866610760df9e23858d024c7",
+  "abbreviated-commit-hash": "3f47b21",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 22:56:02 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "8112c6d95968f580a60001c311aa882328a8b011",
+  "abbreviated-commit-hash": "8112c6d",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 22:50:10 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "cec2fa09241090fd0e8f97e543b367cc5b1a5722",
+  "abbreviated-commit-hash": "cec2fa0",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 22:45:46 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "b818d59be1239a131efde18cd300c395019cb4dd",
+  "abbreviated-commit-hash": "b818d59",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 22:42:35 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "49c5fe16f13e9695a964a803faa4691c553d1905",
+  "abbreviated-commit-hash": "49c5fe1",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 22:29:44 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "f7f213f62d0106d76732b7609ab7b9887dae3658",
+  "abbreviated-commit-hash": "f7f213f",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 22:25:49 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "23144b2b319f8d484e8c342565b221151cf59226",
+  "abbreviated-commit-hash": "23144b2",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 22:20:44 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "8a4c54101be97b0a9b1f52d93b7657378b94ca58",
+  "abbreviated-commit-hash": "8a4c541",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 22:18:13 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "6c38e194e3f10667b95a984b1955def5867eb88b",
+  "abbreviated-commit-hash": "6c38e19",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 22:15:21 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "4bdd00d310596c60acefc1854da1f84961277130",
+  "abbreviated-commit-hash": "4bdd00d",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 22:10:37 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "511ba259edb671f237de3d407dddd2cab9bee4e0",
+  "abbreviated-commit-hash": "511ba25",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 22:04:44 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "cfdeb5de2017d6053ff7d7a9f1b8d4eddb805378",
+  "abbreviated-commit-hash": "cfdeb5d",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 22:02:03 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "66958c002f41903d76003608716b6dd61168e544",
+  "abbreviated-commit-hash": "66958c0",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 21:58:17 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "abf6dbe83edb0db6624ac5cdaea05f0bde00e4b4",
+  "abbreviated-commit-hash": "abf6dbe",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 21:54:16 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "0b478cfce298e38662e8f3b6aaf4326692418f1e",
+  "abbreviated-commit-hash": "0b478cf",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 21:49:17 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "968ab2f427f084d693ed064e60b173dc8d571ae7",
+  "abbreviated-commit-hash": "968ab2f",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 21:45:17 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "82352cfdbfd35abd2e92406fd5a2838f48405d78",
+  "abbreviated-commit-hash": "82352cf",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 21:43:49 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "5058241dbaf0bfd7cc26a75ac80012744db1dd15",
+  "abbreviated-commit-hash": "5058241",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 21:43:33 +0300",
+  "subject": "test",
+  "sanitized-subject-line": "test",
+  "body": "",
+  "raw-body": "test
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "2ace84df844073d4aed3e8a65e2dc5f9fbcdb88e",
+  "abbreviated-commit-hash": "2ace84d",
+  "author-name": "i.batyrov",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 21:09:27 +0300",
+  "subject": "Update main.yml",
+  "sanitized-subject-line": "Update-main.yml",
+  "body": "",
+  "raw-body": "Update main.yml",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "5087b092db6d2dc36de02abb75f831d2dd61a050",
+  "abbreviated-commit-hash": "5087b09",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 21:04:47 +0300",
+  "subject": "fix",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "c5213ef86fbf89611120697447dc0a9c7226b2f4",
+  "abbreviated-commit-hash": "c5213ef",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 21:01:56 +0300",
+  "subject": "fix",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "02edccd9511bdb5c3e08d3033fe790237ecb98ad",
+  "abbreviated-commit-hash": "02edccd",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 20:58:37 +0300",
+  "subject": "fix",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "1a13f5d8e5271fc73a7b91d1ef95e93f21099733",
+  "abbreviated-commit-hash": "1a13f5d",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 20:55:59 +0300",
+  "subject": "fix",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "bc65dc33d7d3f0ed6cbd2dd4a4d90ce68ffc620f",
+  "abbreviated-commit-hash": "bc65dc3",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 20:51:31 +0300",
+  "subject": "fix",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "3965d0cf683536ac1381e80b9818b5f710179837",
+  "abbreviated-commit-hash": "3965d0c",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 20:49:16 +0300",
+  "subject": "fix",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "4398f641e14c282660db2084d7fc3a2c1a805ab9",
+  "abbreviated-commit-hash": "4398f64",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 20:36:51 +0300",
+  "subject": "add dur",
+  "sanitized-subject-line": "add-dur",
+  "body": "",
+  "raw-body": "add dur
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "801b77c8affb23c63ee0d1e3bdc00197e9524246",
+  "abbreviated-commit-hash": "801b77c",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 20:25:13 +0300",
+  "subject": "fix",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "b59c4cf1692a2b5432cb1149f4be902814d5ac31",
+  "abbreviated-commit-hash": "b59c4cf",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 20:24:10 +0300",
+  "subject": "fix",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "d66cf0dcdbbac9a2f747d2c02bf89c0170f6f1e0",
+  "abbreviated-commit-hash": "d66cf0d",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 20:19:07 +0300",
+  "subject": "fix",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "9555d55281c1221474194d55583aea1c35f5dd72",
+  "abbreviated-commit-hash": "9555d55",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 20:18:04 +0300",
+  "subject": "fix",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "5c3b7affb7a1ba045f56451367a870fd30e63ebe",
+  "abbreviated-commit-hash": "5c3b7af",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 20:13:53 +0300",
+  "subject": "fix",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "88fdd28f258cc5f7ae780f949f5b67b901f91e4a",
+  "abbreviated-commit-hash": "88fdd28",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 20:13:06 +0300",
+  "subject": "fix",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "a244b2797fba481bb0b1a586525bf59c8f9f7864",
+  "abbreviated-commit-hash": "a244b27",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 20:04:43 +0300",
+  "subject": "fix|",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix|
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "d681dffbf07ceaa0a36e04e7c2a0a83e1f197779",
+  "abbreviated-commit-hash": "d681dff",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 20:03:53 +0300",
+  "subject": "fix|",
+  "sanitized-subject-line": "fix",
+  "body": "",
+  "raw-body": "fix|
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "d40b9f1b949391094e506f20d6cf610d07374585",
+  "abbreviated-commit-hash": "d40b9f1",
+  "author-name": "i.batyrov",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 19:56:45 +0300",
+  "subject": "Delete entrypoint.sh",
+  "sanitized-subject-line": "Delete-entrypoint.sh",
+  "body": "",
+  "raw-body": "Delete entrypoint.sh",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "944861eceb55985771941935b28f48aa4d1d73df",
+  "abbreviated-commit-hash": "944861e",
+  "author-name": "i.batyrov",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 19:54:33 +0300",
+  "subject": "Update main.yml",
+  "sanitized-subject-line": "Update-main.yml",
+  "body": "",
+  "raw-body": "Update main.yml",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "cf2296139779c0d52f7eeba1ebcc895c11805b11",
+  "abbreviated-commit-hash": "cf22961",
+  "author-name": "i.batyrov",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 19:45:06 +0300",
+  "subject": "Update main.yml",
+  "sanitized-subject-line": "Update-main.yml",
+  "body": "",
+  "raw-body": "Update main.yml",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "b3bab75128ed89b9211de8d45ee075259d2bf860",
+  "abbreviated-commit-hash": "b3bab75",
+  "author-name": "i.batyrov",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 19:40:59 +0300",
+  "subject": "Create hosts",
+  "sanitized-subject-line": "Create-hosts",
+  "body": "",
+  "raw-body": "Create hosts",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "0de657888eeccc52226f65f3b03d0e79ab9f123e",
+  "abbreviated-commit-hash": "0de6578",
+  "author-name": "i.batyrov",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 19:40:32 +0300",
+  "subject": "Update Dockerfile",
+  "sanitized-subject-line": "Update-Dockerfile",
+  "body": "",
+  "raw-body": "Update Dockerfile",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "36283266f4eba5d71822383e947575fd6ee11e34",
+  "abbreviated-commit-hash": "3628326",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 19:05:53 +0300",
+  "subject": "fix ci",
+  "sanitized-subject-line": "fix-ci",
+  "body": "",
+  "raw-body": "fix ci
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "cf279f0e0664b380c7ce0f801e6a6eafb1b492ab",
+  "abbreviated-commit-hash": "cf279f0",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 19:03:33 +0300",
+  "subject": "fix ci",
+  "sanitized-subject-line": "fix-ci",
+  "body": "",
+  "raw-body": "fix ci
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "be1786462df021894f7103eeb41dff89665651bb",
+  "abbreviated-commit-hash": "be17864",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 19:02:13 +0300",
+  "subject": "fix ci",
+  "sanitized-subject-line": "fix-ci",
+  "body": "",
+  "raw-body": "fix ci
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "ecd6004c879d731b584e6e123dc2405b62409d81",
+  "abbreviated-commit-hash": "ecd6004",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 19:01:39 +0300",
+  "subject": "fix ci",
+  "sanitized-subject-line": "fix-ci",
+  "body": "",
+  "raw-body": "fix ci
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "2056ebb4704540211aa845ffe4bfde7bc9002f3d",
+  "abbreviated-commit-hash": "2056ebb",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 19:00:16 +0300",
+  "subject": "fix ci",
+  "sanitized-subject-line": "fix-ci",
+  "body": "",
+  "raw-body": "fix ci
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "c9bc5239b79792b5ec44187a6915132affb0021d",
+  "abbreviated-commit-hash": "c9bc523",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 18:59:38 +0300",
+  "subject": "fix ci",
+  "sanitized-subject-line": "fix-ci",
+  "body": "",
+  "raw-body": "fix ci
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "73b71ac1be86d4ca5e14bf2ff410b9a4543fb196",
+  "abbreviated-commit-hash": "73b71ac",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 18:56:55 +0300",
+  "subject": "add json",
+  "sanitized-subject-line": "add-json",
+  "body": "",
+  "raw-body": "add json
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "0214b0100c37f8e696205c1f394d47e060212e27",
+  "abbreviated-commit-hash": "0214b01",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 18:53:59 +0300",
+  "subject": "add dockerfile",
+  "sanitized-subject-line": "add-dockerfile",
+  "body": "",
+  "raw-body": "add dockerfile
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "4705d3c11622183ad3a2fb0c2d6c85a8bf6feadc",
+  "abbreviated-commit-hash": "4705d3c",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 18:47:07 +0300",
+  "subject": "add dockerfile",
+  "sanitized-subject-line": "add-dockerfile",
+  "body": "",
+  "raw-body": "add dockerfile
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "9f5538d74a2556b95ecf0b75ceac09761a26e4c5",
+  "abbreviated-commit-hash": "9f5538d",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 18:46:18 +0300",
+  "subject": "add dockerfile",
+  "sanitized-subject-line": "add-dockerfile",
+  "body": "",
+  "raw-body": "add dockerfile
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "5057b0cad7b26a421e977ad36986f16577d49ad9",
+  "abbreviated-commit-hash": "5057b0c",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 18:38:18 +0300",
+  "subject": "add dockerfile",
+  "sanitized-subject-line": "add-dockerfile",
+  "body": "",
+  "raw-body": "add dockerfile
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "eb42bcf1668e8131ebf289eca289289e98f67260",
+  "abbreviated-commit-hash": "eb42bcf",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 18:35:46 +0300",
+  "subject": "add dockerfile",
+  "sanitized-subject-line": "add-dockerfile",
+  "body": "",
+  "raw-body": "add dockerfile
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "da251d8ec165632490631e3a3c28d087ecaf5d3b",
+  "abbreviated-commit-hash": "da251d8",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 18:32:01 +0300",
+  "subject": "add dockerfile",
+  "sanitized-subject-line": "add-dockerfile",
+  "body": "",
+  "raw-body": "add dockerfile
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "5c13e6d17c809a436518b95323434cd5dbf2a963",
+  "abbreviated-commit-hash": "5c13e6d",
+  "author-name": "xkey",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 18:29:07 +0300",
+  "subject": "fix ci",
+  "sanitized-subject-line": "fix-ci",
+  "body": "",
+  "raw-body": "fix ci
+",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "27943a831ce1c8d2c50358dc9f8c8eeb12daed9f",
+  "abbreviated-commit-hash": "27943a8",
+  "author-name": "i.batyrov",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 18:29:24 +0300",
+  "subject": "Create main.yml",
+  "sanitized-subject-line": "Create-main.yml",
+  "body": "",
+  "raw-body": "Create main.yml",
+  "commit-notes": ""
+},
+{
+  "commit-hash": "a3c1c1d4db77fa8c29eae9e1eed17da7d46d335f",
+  "abbreviated-commit-hash": "a3c1c1d",
+  "author-name": "i.batyrov",
+  "author-email": "batyrovilshat@yandex.ru",
+  "author-date": "Sun, 5 Jan 2020 18:11:42 +0300",
+  "subject": "Initial commit",
+  "sanitized-subject-line": "Initial-commit",
+  "body": "",
+  "raw-body": "Initial commit",
+  "commit-notes": ""
+}]
