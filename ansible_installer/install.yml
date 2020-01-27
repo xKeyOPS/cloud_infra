@@ -1,5 +1,0 @@
----
-    - include: base.yml
-    - include: alc_app.yml
-    - include: start.yml
-    
