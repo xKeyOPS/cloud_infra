@@ -59,9 +59,9 @@ eksctl create cluster --name app-dev-k8s
 eksctl delete cluster --name app-dev-k8s
 ```
 
-## Install with yaml config
+# Install with yaml config
 
-# Simple yaml config
+## Simple yaml config
 
 ```
 
@@ -88,6 +88,3 @@ nodeGroups:
 ```
 eksctl create cluster -f simple-yaml-config.yml
 ```
-
-
-

@@ -1,42 +1,27 @@
-FROM openjdk:8-jdk-alpine
+FROM gitlab/gitlab-runner:latest
 
+ENV HOME /root
+ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
+ENV TERM rxvt
 
-RUN apk add --no-cache curl tar bash procps
+RUN locale-gen en_US.UTF-8
+RUN apt-get update && apt-get install -yq --no-install-recommends software-properties-common git curl libfontconfig1 libc6-dev
 
+# Oracle JDK 8 installation
+RUN sudo add-apt-repository ppa:webupd8team/java -y && apt-get update
+RUN echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections
+RUN apt-get install -y oracle-java8-installer oracle-java8-set-default
+RUN echo "oracle-jdk-8 is installed in $JAVA_HOME" >> /README
 
-# Downloading and installing Gradle
-# 1- Define a constant with the version of gradle you want to install
-ARG GRADLE_VERSION=2.11
+# gradle installation
+RUN sudo add-apt-repository ppa:cwchien/gradle -y && apt-get update && apt-get install -y gradle-ppa
 
-# 2- Define the URL where gradle can be downloaded from
-ARG GRADLE_BASE_URL=https://services.gradle.org/distributions
+# NodeJS installation
+RUN curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+RUN apt-get install -y nodejs && npm install -g npm
 
-# 3- Define the SHA key to validate the gradle download
-#    obtained from here https://gradle.org/release-checksums/
-ARG GRADLE_SHA=8d7437082356c9fd6309a4479c8db307673965546daea445c6c72759cd6b1ed6
+# Fix error with permissions
+RUN chmod a+r /etc/gitlab-runner/config.toml && chown gitlab-runner /etc/gitlab-runner/config.toml
 
-# 4- Create the directories, download gradle, validate the download, install it, remove downloaded file and set links
-RUN mkdir -p /usr/share/gradle /usr/share/gradle/ref \
-  && echo "Downlaoding gradle hash" \
-  && curl -fsSL -o /tmp/gradle.zip ${GRADLE_BASE_URL}/gradle-${GRADLE_VERSION}-bin.zip \
-  \
-  && echo "Checking download hash" \
-  && echo "${GRADLE_SHA}  /tmp/gradle.zip" | sha256sum -c - \
-  \
-  && echo "Unziping gradle" \
-  && unzip -d /usr/share/gradle /tmp/gradle.zip \
-   \
-  && echo "Cleaning and setting links" \
-  && rm -f /tmp/gradle.zip \
-  && ln -s /usr/share/gradle/gradle-${GRADLE_VERSION} /usr/bin/gradle
-
-# 5- Define environmental variables required by gradle
-ENV GRADLE_VERSION 2.11
-ENV GRADLE_HOME /usr/bin/gradle
-ENV GRADLE_USER_HOME /cache
-
-ENV PATH $PATH:$GRADLE_HOME/bin
-
-VOLUME $GRADLE_USER_HOME
-
-CMD [""]
+# clean all
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
