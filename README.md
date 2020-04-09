@@ -1,5 +1,8 @@
 <p align="center">
 
+![alt text][logo]
+
+[logo]: Devops@4x-min-768x590.png"
   <h3 align="center">Cloud Engineer</h3>
 
   <p align="center">
