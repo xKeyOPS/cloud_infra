@@ -1,17 +1,15 @@
 <p align="center">
-  <a href="https://xkeyops.github.io/cloud_infra/">
-    <img src="img/Devops@4x-min-768x590.png" alt="Logo" width=768 height=590>
-  </a>
-
-  <h3 align="center">Cloud Engineer</h3>
-
-  <p align="center">
-    Install kubernetes on Cloud platform
-  </p>
-</p>
 
 
-# Cloud Infrastructure k8s by xkey
+![alt text][logo]
+
+[logo]: Devops@4x-min-768x590.png" "Provided by unsplash.com"
+
+
+  <h1 align="center">Cloud Engineer</h1>
+
+
+## Cloud Infrastructure by Xkey
 
 ## Table of contents
 
