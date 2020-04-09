@@ -5,13 +5,10 @@
 
   <h3 align="center">Cloud Engineer</h3>
 
-  <p align="center">
-    Install kubernetes on Cloud platform
-  </p>
 </p>
 
 
-# Cloud Infrastructure k8s by xkey
+## Cloud Infrastructure Kubernetes by xkey
 
 ## Table of contents
 

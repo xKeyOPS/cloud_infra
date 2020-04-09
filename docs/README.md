@@ -1,17 +1,15 @@
 <p align="center">
-  <a href="https://xkeyops.github.io/cloud_infra/">
-    <img src="Devops@4x-min-768x590.png" alt="Logo" width=768 height=590>
-  </a>
+
 
 ![alt text][logo]
 
-[logo]: Devops@4x-min-768x590.png"
+[logo]: Devops@4x-min-768x590.png
 
 
-  <h1 align="center">Cloud Engineer</h1>
+  <h1 align="center">Cloud DevOps Engineer</h1>
+</p>
 
-
-## Cloud Infrastructure by Xkey
+<h1 align="center">Cloud Infrastructure by xkey </h1>
 
 ## Table of contents
 
