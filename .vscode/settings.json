@@ -6,5 +6,19 @@
     ],
     "GithubGistExplorer.github.username": "xKeyOPS",
     "GithubGistExplorer.github.token": "2574600deeecdc37121c956f581019d17d1356b3",
-    "GithubGistExplorer.explorer.subscriptionAscending": true
+    "GithubGistExplorer.explorer.subscriptionAscending": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        ".vscode/settings.json": true,
+        "**/settings.json": true,
+        ".vscode/*.json": true,
+        ".vscode/*.*": true,
+        "settings.json": true,
+        "**/*.json": true
+    },
+    "explorerExclude.backup": null
 }

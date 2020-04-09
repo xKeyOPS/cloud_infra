@@ -1,7 +1,7 @@
 <p align="center">
-  <!-- <a href="https://xkeyops.github.io/cloud_infra/">
-    <img src="./docs/Devops@4x-min-768x590.png" alt="Logo" width=768 height=590>
-  </a> -->
+  <a href="https://xkeyops.github.io/cloud_infra/">
+    <img src="docs/Devops@4x-min-768x590.png" alt="Logo" width=768 height=590>
+  </a>
 
   <h3 align="center">Cloud Engineer</h3>
 
