@@ -8,7 +8,7 @@
 </p>
 
 
-## Cloud Infrastructure Kubernetes by xkey
+## Kubernetes Infrastructure by xkey
 
 ## Table of contents
 
