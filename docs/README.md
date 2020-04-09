@@ -3,7 +3,7 @@
 
 ![alt text][logo]
 
-[logo]: Devops@4x-min-768x590.png" "Provided by unsplash.com"
+[logo]: Devops@4x-min-768x590.png"
 
 
   <h1 align="center">Cloud Engineer</h1>
